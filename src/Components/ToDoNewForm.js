@@ -52,6 +52,9 @@ function ToDoNewForm() {
           placeholder="m:d:h:m"
           onChange={handleTextChange}
         />
+        <button htmlFor="addtask" id="addtask"
+          type="submit"
+          onChange={handleSubmit}>Add Task</button>
         <button htmlFor="finished"  id="finished"
           type="submit"
           onChange={handleCheckboxChange}
